@@ -1,0 +1,16 @@
+[package]
+name = "crytex"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Crytex
+crytex_ecs = { path = "../crytex_ecs" }
+crytex_math = { path = "../crytex_math" }
+crytex_render = { path = "../crytex_render" }
+
+# Other
+env_logger = "0.9"
+pollster = "0.2"
