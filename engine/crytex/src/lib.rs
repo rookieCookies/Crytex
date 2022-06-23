@@ -1,10 +1,10 @@
-use crytex_render::RenderHandle;
+use crytex_log::{LOGGER};
 
 pub struct App;
 
 impl App {
     pub fn init() {
-        let _renderer = pollster::block_on(RenderHandle::init());
+        LOGGER.info("Initialising Crytex Engine")
     }
 }
 pub struct AppBuilder;
