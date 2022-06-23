@@ -27,6 +27,7 @@ World
 ```
 ### PlayerMovement Script
 ``` 
+# The from keyword means it extends the functionality of Node2D
 from Node2D
 
 # If there is no value and no default value, after the ready function is over, throw an error
